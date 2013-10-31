@@ -16,11 +16,11 @@
 
 This application is a broken version of a simple geometry calculator. Your job is to fix it. Read the home page to get an idea of what the application should be able to do.
 
-There are six shapes for which the application should be able to calculate areas. The first action, **square**, should be working. Confirm this to make sure you set up correctly.
+There are six shapes for which the application should be able to calculate areas. The first action, **square**, should be working. Confirm this by clicking the example link to make sure you set up correctly.
 
 The actions for the other five shapes are either missing or broken. Click each example link in your application on http://localhost:3000 and you will see that something goes wrong for each one.
 
-The final URL, /random_circles, should display a page with links to 5 circles of random radii between 1 and 20. Right now, the page doesn't display the information properly, and the links are all static. You should first complete the **circle** action, and then turn your attention to the broken **random** view.
+The final URL, /random_circles, should display a page with links to 5 circles of random radii. Right now, the page doesn't display the information properly, and the links are all static. You should first complete the **circle** action, and then turn your attention to the broken **random** view.
 
 As a reference, I have put up a fully-functional version of the application at http://geometer.herokuapp.com. This is your target.
 
