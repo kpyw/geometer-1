@@ -1,11 +1,13 @@
 Geometer::Application.routes.draw do
   get("/areas/square/:length_of_side", { :controller => "areas", :action => "square" })
 
-  get("/areas/circle/:radius", { :controller => "area", :action => "circles" })
+  get("/areas/circle/:radius", { :controller => "areas", :action => "circle" })
 
-  get("/areas/triangle/base/vertical_height", { :controller => "areas", :action => "triangle" })
+  get("/areas/triangle/:base/:vertical_height", { :controller => "areas", :action => "triangle" })
 
   get("/areas/trapezoid/:a/:b/:vertical_height", { :controller => "areas", :action => "trapezoid" })
+
+  get("/areas/rectangle/:width/:height/", { :controller => "areas", :action => "rectangle" })
 
   get("/areas/ellipse/:a/:b", { :controller => "areas", :action => "ellipse" })
 
